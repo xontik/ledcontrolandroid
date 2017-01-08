@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Pong Game"
+        android:id="@+id/pongGameTextView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="UP"
+        android:id="@+id/upButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:textSize="60dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="DOWN"
+        android:id="@+id/downButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:textSize="60dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Cédric"
+            android:id="@+id/cheatButton"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Pause"
+            android:id="@+id/pauseButton"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
